@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B: eko"
+        android:textColor="@color/black"
+        android:textSize="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_sortowanie"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:text="SORTOWANIE ŚMIECI"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="270dp"
+        />
+
+    <Button
+        android:id="@+id/button_woda"
+        android:text="WODA"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="270dp"/>
+
+    <Button
+        android:id="@+id/button_quiz"
+        android:text="QUIZ"
+        android:layout_below="@id/button_woda"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="15dp" />
+
+    <Button
+        android:id="@+id/button_dom"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/button_woda"
+        android:text="DOM"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"/>
+
+</RelativeLayout>
