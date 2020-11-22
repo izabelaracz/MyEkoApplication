@@ -11,8 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyEkoApplication">
         <activity android:name=".QuizWorking"></activity>
+        <activity android:name=".Quiz"></activity>
+        <activity android:name=".QuizResult"></activity>
         <activity android:name=".Dom" />
-        <activity android:name=".Quiz" />
+        <activity android:name=".Question" />
         <activity android:name=".Woda" />
         <activity android:name=".Sortowanie" />
         <activity android:name=".MainActivity">

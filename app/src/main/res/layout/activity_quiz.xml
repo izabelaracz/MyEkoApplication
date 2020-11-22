@@ -8,9 +8,18 @@
     tools:context=".Quiz">
 
     <TextView
+        android:id="@+id/textViewMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="QUIZ"/>
+        android:text="Tu jest opis quizu"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:textSize="19dp"
+        android:layout_centerInParent="true"
+        android:text="Zrób QUIZ" />
 </RelativeLayout>
