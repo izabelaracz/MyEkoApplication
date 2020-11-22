@@ -3,14 +3,15 @@
     package="com.example.myekoapplication">
 
     <application
-        android:fullBackupContent="@xml/appcenter_backup_rule"
         android:allowBackup="true"
+        android:fullBackupContent="@xml/appcenter_backup_rule"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyEkoApplication">
-        <activity android:name=".Dom"></activity>
+        <activity android:name=".QuizWorking"></activity>
+        <activity android:name=".Dom" />
         <activity android:name=".Quiz" />
         <activity android:name=".Woda" />
         <activity android:name=".Sortowanie" />
