@@ -139,9 +139,9 @@ public class QuizWorking extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
-            finishQuiz();
+            finish();
         } else {
-            Toast.makeText(this, "Press back again to finish", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Cofnij jeszcze raz aby wyjść", Toast.LENGTH_LONG).show();
         }
         backPressedTime = System.currentTimeMillis();
     }
