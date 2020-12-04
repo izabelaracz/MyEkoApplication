@@ -2,12 +2,14 @@ package com.example.myekoapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
@@ -18,11 +20,12 @@ import com.microsoft.appcenter.crashes.Crashes;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonSort;
-    private Button buttonWoda;
-    private Button buttonQuiz;
-    private Button buttonDom;
+    private ImageButton buttonSort;
+    private ImageButton buttonWoda;
+    private ImageButton buttonQuiz;
+    private ImageButton buttonDom;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         AppCenter.start(getApplication(), "9d7519b7-785c-4c08-a882-0ef67c2daa23",
                 Analytics.class, Crashes.class);
 
-        buttonSort = (Button) findViewById(R.id.button_sortowanie);
+        buttonSort = (ImageButton) findViewById(R.id.button_sortowanie);
         buttonSort.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonWoda = (Button) findViewById(R.id.button_woda);
+        buttonWoda = (ImageButton) findViewById(R.id.button_woda);
         buttonWoda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonQuiz = (Button) findViewById(R.id.button_quiz);
+        buttonQuiz = (ImageButton) findViewById(R.id.button_quiz);
         buttonQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonDom = (Button) findViewById(R.id.button_dom);
+        buttonDom = (ImageButton) findViewById(R.id.button_dom);
         buttonDom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
