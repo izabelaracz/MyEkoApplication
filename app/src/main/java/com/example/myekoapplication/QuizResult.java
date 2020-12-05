@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.IntentCompat;
 
 public class QuizResult extends AppCompatActivity {
     private TextView textViewScore;
@@ -30,8 +31,14 @@ public class QuizResult extends AppCompatActivity {
         if(score > 5) {
             textViewInfo.setText("Super");
         } else {
-            textViewScore.setText("Słabo");
+            textViewInfo.setText("Słabo");
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 }

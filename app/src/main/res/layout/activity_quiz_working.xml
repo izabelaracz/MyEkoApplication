@@ -18,20 +18,23 @@
         android:layout_marginTop="105dp"
         android:fontFamily="@font/montserrat"
         android:text="PYTANIE 1 z x"
+        android:textColor="@android:color/holo_green_dark"
         android:textSize="32dp" />
 
     <TextView
         android:id="@+id/question_text"
-        android:textAlignment="center"
-        android:text="tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="22dp"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/question_count"
+        android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="30dp"
-        android:gravity="center_horizontal" />
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:text="tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania tekst_pytania "
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold" />
 
     <RadioGroup
         android:id="@+id/radio_group"
@@ -43,42 +46,51 @@
 
         <RadioButton
             android:id="@+id/radio_button1"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Odpowiedz 1" />
+            android:fontFamily="@font/montserrat"
+            android:text="Odpowiedz 1"
+            android:textColor="#535151"
+            android:textSize="18dp" />
 
         <RadioButton
             android:id="@+id/radio_button2"
-            android:textSize="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Odpowiedz 2" />
+            android:fontFamily="@font/montserrat"
+            android:text="Odpowiedz 2"
+            android:textColor="#535151"
+            android:textSize="18dp" />
 
     </RadioGroup>
 
     <TextView
         android:id="@+id/answer_description"
-        android:textAlignment="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi"
         android:layout_below="@+id/radio_group"
-        android:textSize="18dp"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
-        android:gravity="center_horizontal" />
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal"
+        android:text="opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi opis_odpowiedzi"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
 
     <Button
         android:id="@+id/button_confirm_next"
         android:layout_width="260dp"
         android:layout_height="80dp"
-        android:textSize="19dp"
-        android:text="Następne pytanie"
         android:layout_below="@+id/answer_description"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"/>
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Następne pytanie"
+        android:textAllCaps="true"
+        android:textSize="19dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
 </ScrollView>

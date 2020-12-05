@@ -17,6 +17,9 @@ public class Quiz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
+        textViewInfo = (TextView) findViewById((R.id.textViewMsg));
+        textViewInfo.setText("Sprawdź się i zobacz jak dużo wiesz o byciu eko! Quiz nie jest trudny, od razu zobaczysz czy Twoja odpowiedź jest prawidłowa. Dostaniesz także wytłumaczenie odpowiedzi. Nasz quiz to przede wszystkim zabawa, ale masz również możliwość zdobycia nowej wiedzy.\nPowodzenia!");
+
         buttonDalej = (Button) findViewById(R.id.buttonNext);
         buttonDalej.setOnClickListener(new View.OnClickListener() {
             @Override

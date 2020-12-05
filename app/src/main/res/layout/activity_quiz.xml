@@ -11,15 +11,23 @@
         android:id="@+id/textViewMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
-        android:text="Tu jest opis quizu"/>
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Tu jest opis quizu"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonNext"
         android:layout_width="260dp"
         android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Zrób QUIZ"
+        android:textAllCaps="true"
         android:textSize="19dp"
-        android:layout_centerInParent="true"
-        android:text="Zrób QUIZ" />
+        android:textStyle="bold" />
 </RelativeLayout>
