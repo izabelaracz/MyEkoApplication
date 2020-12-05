@@ -20,6 +20,7 @@
         <activity android:name=".DomZakupy" />
         <activity android:name=".Question" />
         <activity android:name=".Woda" />
+        <activity android:name=".WodaLicznik" />
         <activity android:name=".Sortowanie" />
         <activity android:name=".MainActivity">
             <intent-filter>

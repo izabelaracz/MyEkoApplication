@@ -8,9 +8,39 @@
     tools:context=".Woda">
 
     <TextView
+        android:id="@+id/textViewWoda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="WODA"/>
+        android:fontFamily="@font/montserrat"
+        android:text="Notka dlaczego woda jest ważna i co znajdziemy w tej sekcji"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/buttonCiekawostka"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Ciekawostka"
+        android:textAllCaps="true"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonLicznik"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Licznik filtra"
+        android:textAllCaps="true"
+        android:textSize="19dp"
+        android:textStyle="bold" />
 </RelativeLayout>
