@@ -8,9 +8,27 @@
     tools:context=".Dom">
 
     <TextView
+        android:id="@+id/textViewDom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="DOM"/>
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/montserrat"
+        android:text="DOM"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonNextTip"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Do dzieła"
+        android:textAllCaps="true"
+        android:textSize="19dp"
+        android:textStyle="bold" />
 </RelativeLayout>

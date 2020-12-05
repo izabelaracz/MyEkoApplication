@@ -14,6 +14,10 @@
         <activity android:name=".Quiz"></activity>
         <activity android:name=".QuizResult"></activity>
         <activity android:name=".Dom" />
+        <activity android:name=".DomTipy" />
+        <activity android:name=".Dom2Zycie" />
+        <activity android:name=".DomCzysto" />
+        <activity android:name=".DomZakupy" />
         <activity android:name=".Question" />
         <activity android:name=".Woda" />
         <activity android:name=".Sortowanie" />
