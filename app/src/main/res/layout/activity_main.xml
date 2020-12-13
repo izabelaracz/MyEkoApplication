@@ -12,8 +12,8 @@
         android:layout_width="230dp"
         android:layout_height="130dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/beko_logo_poprawione"/>
+        android:layout_marginTop="80dp"
+        android:background="@drawable/logo_beko_wersja_dwa"/>
 
 
     <ImageButton

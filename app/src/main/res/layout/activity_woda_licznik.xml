@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
+        android:layout_width="170dp"
         android:layout_height="200dp"
-        app:srcCompat="?android:attr/textSelectHandle"
+        android:background="@drawable/kropelka"
         android:layout_marginTop="70dp"
         android:layout_centerHorizontal="true"
         tools:layout_editor_absoluteX="122dp"

@@ -1,6 +1,338 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/opisCzysto"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Tutaj znajdują się proste przepisy na domowe środki czystości, które działają równie dobrze, co te sklepowe, a dodatkowo są o wiele tańsze i całkowicie bezpieczne dla środowiska."/>
+
+    <TextView
+        android:id="@+id/tytul1"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/opisCzysto"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="1. DOMOWY PŁYN DO MYCIA NACZYŃ"/>
+
+    <TextView
+        android:id="@+id/przepis1"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: sok z trzech dorodnych cytryn, 1,5 szklanki wody, 1 szklankę soli drobnoziarnistej oraz 1 szklankę białego octu.
+
+Wymieszaj dokładnie składniki, wrzuć je na ogień i gotuj przez około 10 minut – w tym czasie nie przestawiaj mieszać. Po tym czasie możesz sprawdzić czy płyn się zagęścił. Jeżeli zrobimy to za szybko lub za wolno, to konsystencja naszego „preparatu” nie będzie nadawać się do sprzątania."/>
+
+    <TextView
+        android:id="@+id/tytul2"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis1"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="2. USUWANIE KAMIENIA Z CZAJNIKA"/>
+
+    <TextView
+        android:id="@+id/przepis2"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: woda, 2-3 łyżeczki kwasku cytrynowego lub kilka łyżek octu.
+
+Dokładne odmierzamy nasz składnik (w zależności od tego, który wybraliśmy), wsypujemy do czajnika, zalewamy wodą i włączamy. Później, dla wzmocnienia efektu, można powtórzyć zabieg."/>
+
+    <TextView
+        android:id="@+id/tytul3"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis2"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="3. SPOSÓB NA ZACIEKI NA UMYWALCE/WANNIE/KAFELKACH"/>
+
+    <TextView
+        android:id="@+id/przepis3"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: pół szklanki sody oczyszczonej i 2 łyżki octu.
+
+Mieszamy składniki – najlepiej w misce. Nakładamy, następnie delikatnie przecieramy szmatką lub gąbką miejsca, gdzie znajdują się zacieki."/>
+
+    <TextView
+        android:id="@+id/tytul4"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis3"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="4. SRODEK DO MYCIA SZYB"/>
+
+    <TextView
+        android:id="@+id/przepis4"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: 2 łyżeczki octu, 2 litry ciepłej wody.
+
+Mieszamy składniki, wlewamy do pojemnika ze spryskiwaczem, spryskujemy lustro (lub szybę) i dokładnie wycieramy."/>
+
+    <TextView
+        android:id="@+id/tytul5"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis4"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="5. DOMOWE MYDŁO"/>
+
+    <TextView
+        android:id="@+id/przepis5"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: płatki owsiane, woda.
+
+Zabrakło mydła? Nie szkodzi o ile w szafie masz płatki owsiane. Zalewamy je wodą aż do uzyskania gęstej papki. Nakładamy na dłonie, myjemy i spłukujemy."/>
+
+    <TextView
+        android:id="@+id/tytul6"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis5"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="6. SPOSÓB NA TŁUSTĄ PLAMĘ"/>
+
+    <TextView
+        android:id="@+id/przepis6"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: gorąca woda, soda oczyszczona.
+
+Ubranie z plamami od tłuszczu zalewamy gorącą wodą, a następnie posypujemy sodą oczyszczoną. Po 15 minutach przystępujemy do prania ręcznego i spłukujemy zawartość w ciepłej wodzie."/>
+
+    <TextView
+        android:id="@+id/tytul7"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis6"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="7. SPOSÓB NA PLAMĘ Z ATRAMENTU"/>
+
+    <TextView
+        android:id="@+id/przepis7"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: ocet.
+
+Miejsce zabrudzania wystarczy przetrzeć szmatką lub gąbką, uprzednio nasączoną octem."/>
+
+    <TextView
+        android:id="@+id/tytul8"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis7"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="8. SPOSÓB NA PLAMĘ Z ATRAMENTU"/>
+
+    <TextView
+        android:id="@+id/przepis8"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: ocet.
+
+Miejsce zabrudzania wystarczy przetrzeć szmatką lub gąbką, uprzednio nasączoną octem."/>
+
+    <TextView
+        android:id="@+id/tytul9"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis8"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="9. USUWANIE WILGOCI/BRZYDKIEGO ZAPACHU Z BUTÓW"/>
+
+    <TextView
+        android:id="@+id/przepis9"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: kilka łyżek ryżu i plasterków z cytryny.
+
+Chcąc usunąć wilgoć z butów wsypujemy do nich ryż i pozostawiamy na noc. Z kolei w przypadku brzydkiego zapachu wystarczy pokroić cytrynę na plasterki i umieścić równomiernie w bucie. Pozostawić na dzień lub dwa."/>
+
+    <TextView
+        android:id="@+id/tytul10"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/przepis9"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="10. USUWANIE ETYKIETY ZE SŁOIKA"/>
+
+    <TextView
+        android:id="@+id/przepis10"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tytul10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Potrzebne produkty: 1 łyżka oleju kokosowego, 1 łyżka sody oczyszczonej.
+
+Mieszamy oba składnik, a stworzoną w ten sposób maź nakładamy na naklejkę. Poczekać minutę, aż etykieta nasiąknie preparatem, a następnie pod bieżącą wodą zeskrobać ją myjką."/>
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,6 +1,317 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/opisZakupy"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="W tej zakładce znajdziesz 10 prostych zasad, które pomogą Ci zrobić zakupy przemyślane i zgodnie z zasadą zero waste."/>
+
+        <TextView
+            android:id="@+id/tytul1"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/opisZakupy"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 1\nUkładaj plan jedzeniowy na cały tydzień"/>
+
+        <TextView
+            android:id="@+id/zasada1"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Żeby wiedzieć, jakie produkty i w jakich ilościach kupić, musisz ustalić sobie plan jedzeniowy. Bez niego nie będziesz w stanie kupić produktów w takiej ilości, żeby żadnego z nich nie zmarnować."/>
+
+        <TextView
+            android:id="@+id/tytul2"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada1"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 2\nZrób listę zakupów w domu"/>
+
+        <TextView
+            android:id="@+id/zasada2"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Kiedy będziesz miał już ułożony plan posiłków, możesz teraz sprawdzić, jakie produkty masz jeszcze w domu, a które musisz dokupić. Dzięki zrobieniu listy ograniczysz ryzyko zapomnienia czegoś, kupienia czegoś w zbyt dużej ilości, albo kupienia czegoś, co już maszw domu."/>
+
+        <TextView
+            android:id="@+id/tytul3"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada2"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 3\nSpisuj braki w produktach na bieżąco"/>
+
+        <TextView
+            android:id="@+id/zasada3"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Gdy wyjmujesz z lodówki ostatnie plasterki sera, dopisz je na listę. Robiąc to, spisujesz swoje aktualne potrzeby spożywcze."/>
+
+        <TextView
+            android:id="@+id/tytul4"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada3"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 4\nZapasy to dobry pomysł"/>
+
+        <TextView
+            android:id="@+id/zasada4"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Jeśli chodzi o produkty z dłuższą datą wartości do spożycia takie, jak ryż, kasza, sól, cukier, różne sosy itp. możesz zrobić ich minimalny zapas w domu. Nie mówimy tu o ogromnych zapasach zimowych. ;)"/>
+
+        <TextView
+            android:id="@+id/tytul5"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada4"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 5\nDostosuj ilości"/>
+
+        <TextView
+            android:id="@+id/zasada5"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Na pewno w swoim planie jedzeniowym masz jakieś produkty, które ciągle się powtarzają. Zaobserwuj, jakie ilości tych produktó schodzą w ciąglu tygodnia i dostosuj ilości tak, żeby czegoś nie zabrakło, lub żeby coś się nie zmarnowało."/>
+
+        <TextView
+            android:id="@+id/tytul6"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada5"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 6\nTerminy ważności są... ważne"/>
+
+        <TextView
+            android:id="@+id/zasada6"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Jeśli podczas zakupów nie będziemy uwzględniać terminów przydatności do spożycia może się okazać, że zaczniemy wyrzucać sporą ilość jedzenia."/>
+
+        <TextView
+            android:id="@+id/tytul7"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada6"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 7\nPrzechowywanie żywności"/>
+
+        <TextView
+            android:id="@+id/zasada7"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="A dokładniej, odpowiednie przechowywanie jedzenia. Jeśli robimy zakupy raz na tydzień, powinniśmy zadbać o to, aby w ciągu tego tygodnia nie straciły swoich wartości odżywczych albo co gorsza przestały nadawać się do zjedzenia."/>
+
+        <TextView
+            android:id="@+id/tytul8"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada7"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 8\nZamrażaj!"/>
+
+        <TextView
+            android:id="@+id/zasada8"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Zamarażaj wszystko, co możesz. Pozwoli Ci to na łatwe zgromadzenie zapasów."/>
+
+        <TextView
+            android:id="@+id/tytul9"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada8"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 9\nNa pierwszy ogień świerze produkty"/>
+
+        <TextView
+            android:id="@+id/zasada9"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Twój plan żywieniowy powinien być dostosowany do tego, jak szybko niektóre produkty się psują. Dlatego w najbliższych od zakupów dniach przygoduj posiłki z produktów, których data ważności mija najszybciej."/>
+
+        <TextView
+            android:id="@+id/tytul10"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada9"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="ZASADA NR 10\nWytrawne dania... z resztek"/>
+
+        <TextView
+            android:id="@+id/zasada10"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Im dalej od zakupów, tym więcej resztek produktów w domu. Nie ma wyjścia, w takiej sytuacji trzeba kombinować. Przepisy na dania resztkowe bardzo łatwo można znaleźć w sieci. Niektóre naprawdę wprawiają w podziw (w pozytywnym tego słowa znaczeniu oczywiście)."/>
+
+    </RelativeLayout>
+</ScrollView>
