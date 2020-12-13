@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".DomTipy">
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonCzysto"
         android:background="@drawable/dom_czystosc"
         android:layout_width="350dp"
@@ -18,7 +18,7 @@
         android:textSize="19dp"
         />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonZakupy"
         android:background="@drawable/dom_zakupy"
         android:layout_width="350dp"
@@ -32,7 +32,7 @@
         android:layout_below="@id/buttonCzysto"
         android:textStyle="bold" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button2Zycie"
         android:background="@drawable/dom_zycie"
         android:layout_width="350dp"

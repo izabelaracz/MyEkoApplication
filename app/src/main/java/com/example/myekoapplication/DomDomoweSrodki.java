@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class dom_domowe_srodki extends AppCompatActivity {
+public class DomDomoweSrodki extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

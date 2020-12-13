@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyEkoApplication">
-        <activity android:name=".dom_domowe_srodki"></activity>
+        <activity android:name=".DomDomoweSrodki"></activity>
         <activity android:name=".QuizWorking" />
         <activity android:name=".Quiz" />
         <activity android:name=".QuizResult" />
