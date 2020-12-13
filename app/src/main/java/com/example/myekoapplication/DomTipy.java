@@ -4,20 +4,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class DomTipy extends AppCompatActivity {
-    private Button buttonCzysto;
-    private Button buttonZakupy;
-    private Button button2Zycie;
+    private ImageButton buttonCzysto;
+    private ImageButton buttonZakupy;
+    private ImageButton button2Zycie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dom_tipy);
 
-        buttonCzysto = (Button) findViewById(R.id.buttonCzysto);
+        buttonCzysto = (ImageButton) findViewById(R.id.buttonCzysto);
         buttonCzysto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +26,7 @@ public class DomTipy extends AppCompatActivity {
             }
         });
 
-        buttonZakupy = (Button) findViewById(R.id.buttonZakupy);
+        buttonZakupy = (ImageButton) findViewById(R.id.buttonZakupy);
         buttonZakupy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +34,7 @@ public class DomTipy extends AppCompatActivity {
             }
         });
 
-        button2Zycie = (Button) findViewById(R.id.button2Zycie);
+        button2Zycie = (ImageButton) findViewById(R.id.button2Zycie);
         button2Zycie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

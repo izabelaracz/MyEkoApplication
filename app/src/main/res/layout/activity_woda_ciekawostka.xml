@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewOpis"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Opis" />
+
+    <TextView
+        android:id="@+id/textViewTytul1"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewOpis"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="1. MYCIE ZĘBÓW"/>
+
+    <TextView
+        android:id="@+id/textViewCiekawostka1"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/textViewTytul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Jedno około 3-minutowe myscie zębów przy odkręconym kranie zużywa około 15 l wody.\n\nGdy na czas oszczędzania zakręcisz kran, zużycie spada do około 2 litrów."/>
+
+    <TextView
+        android:id="@+id/textViewTytul2"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewCiekawostka1"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="2. ODKRĘCONY KRAN"/>
+
+    <TextView
+        android:id="@+id/textViewCiekawostka2"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/textViewTytul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Przez 5 minut z odkręconego kranu wypływa około 50 l wody.\n\n10minut golenia się przy odkręconej wodzie to około 100 l wody.\n\n3minuty mycia rąk z odkręconym kranem to 30 l wody."/>
+
+    <TextView
+        android:id="@+id/textViewTytul3"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewCiekawostka2"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="3. KĄPIEL"/>
+
+    <TextView
+        android:id="@+id/textViewCiekawostka3"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/textViewTytul3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Na kąpiel w wannie potrzeba około 115-150 l wody; więcej, gdy myjemy i płuczemy włosy.\n\nWzięcie prysznica to około 50 l wody."/>
+
+    <TextView
+        android:id="@+id/textViewTytul4"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewCiekawostka3"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="4. USZCZELKI"/>
+
+    <TextView
+        android:id="@+id/textViewCiekawostka4"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/textViewTytul4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Nieszczelny, kapiący kran to około 200 ml wody na godzinę i ponad 1700 litrów straconej wody rocznie.\n\nCieknąca spłuczka to nawet 9 l wody na godzinę, co daje rocznie aż 78900 l uciekającej wody."/>
+
+    <TextView
+        android:id="@+id/textViewTytul5"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewCiekawostka4"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="5. PRALKA"/>
+
+    <TextView
+        android:id="@+id/textViewCiekawostka5"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/textViewTytul5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="Na jedno pranie pralka zużywa od 50 do 100 l wody.\n\nDwa prania z połową wsadu zużywają więcej wody niż jedno z maksymalnym wsadem.\n\nNajmniej wody i energii na 1 kg prania zużywają programy do prania bawełny w temperaturze 40 i 60 stopni Celsjusza.\n\nPełny wsad to mniejsze zużycie wody na 1 kg prania.\n"/>
+
+
+</RelativeLayout>
+</ScrollView>

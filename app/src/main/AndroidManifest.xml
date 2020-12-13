@@ -22,7 +22,9 @@
         <activity android:name=".Question" />
         <activity android:name=".Woda" />
         <activity android:name=".WodaLicznik" />
+        <activity android:name=".WodaCiekawostka" />
         <activity android:name=".Sortowanie" />
+        <activity android:name=".Help" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

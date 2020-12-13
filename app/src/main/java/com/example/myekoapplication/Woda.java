@@ -20,6 +20,7 @@ public class Woda extends AppCompatActivity {
         buttonCiekawostka.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                openCiekawosta();
             }
         });
 
@@ -35,6 +36,10 @@ public class Woda extends AppCompatActivity {
     public void openLicznik() {
         Intent intent = new Intent(this, WodaLicznik.class);
         startActivity(intent);
+    }
+
+    public void openCiekawosta() {
+        startActivity(new Intent(this, WodaCiekawostka.class));
     }
 
     @Override
