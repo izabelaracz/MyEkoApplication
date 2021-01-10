@@ -10,7 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyEkoApplication">
-        <activity android:name=".DomDomoweSrodki"></activity>
+        <activity android:name=".SortowanieMieszane"></activity>
+        <activity android:name=".SortowanieBio" />
+        <activity android:name=".SortowanieSzklo" />
+        <activity android:name=".SortowaniePapier" />
+        <activity android:name=".SortowaniePlastik" />
+        <activity android:name=".DomDomoweSrodki" />
         <activity android:name=".QuizWorking" />
         <activity android:name=".Quiz" />
         <activity android:name=".QuizResult" />
