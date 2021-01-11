@@ -15,6 +15,7 @@
         <activity android:name=".SortowanieSzklo" />
         <activity android:name=".SortowaniePapier" />
         <activity android:name=".SortowaniePlastik" />
+        <activity android:name=".SortowanieNN" />
         <activity android:name=".DomDomoweSrodki" />
         <activity android:name=".QuizWorking" />
         <activity android:name=".Quiz" />

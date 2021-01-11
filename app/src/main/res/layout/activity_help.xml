@@ -7,11 +7,145 @@
 
     <TextView
         android:id="@+id/textView2"
+        android:fontFamily="@font/montserrat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Help"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:text="Witaj!\nW aplikacji znajdziesz cztery sekcje: Segregacja, Woda, Quiz oraz Dom. W każdej z nich znajduje się porcja wiedzy jak być bardziej przyjaznym środowisku na codzień, w domowych warunkach."
         android:gravity="center"
-        android:layout_centerInParent="true"/>
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textViewSegregacjaTytul"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Segregacja"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"/>
+
+    <TextView
+        android:id="@+id/textViewSegregacja"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="W sekcji Segregacja masz możliwość sprawdzenia gdzie wyrzucić daną rzecz, jak segregować śmieci."
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewSegregacjaTytul"/>
+
+    <TextView
+        android:id="@+id/textViewWodaTytul"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Woda"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewSegregacja"/>
+
+    <TextView
+        android:id="@+id/textViewWoda"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="W sekcji Woda znajdują się dwie funkcjonalności: Ciekawostki i Licznik Filtra. W pierwszej sekcji znajduja się ciekwostki na temat zużycia wody, w drugiej sekcji możesz ustawić datę włożenia filtra do wody kranowej. Standardowo taki filtr działa prawidłowo około miesiąca, wiec gdy rozpoczniesz odliczanie zegar ustawi się na 30 dni od ustawionej daty. Licznik możesz wyzerować ręcznie, poprzez naciśnięcie przycisku resetuj. "
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewWodaTytul"/>
+
+    <TextView
+        android:id="@+id/textViewQuizTytul"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Quiz"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewWoda"/>
+
+    <TextView
+        android:id="@+id/textViewQuiz"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="W sekcji Quiz znajduje się prosty test wiedzy o ekologi. Po zaznaczeniu odpowiedzi i zatwierdzeniu jej od razu otrzymasz informację czy Twoja odpowiedź jest prawidłowa wraz z wytłumaczeniem."
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewQuizTytul"/>
+
+    <TextView
+        android:id="@+id/textViewDomTytul"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Dom"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewQuiz"/>
+
+    <TextView
+        android:id="@+id/textViewDom"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="W sekcji Dom znajdziesz podzielone na trzy kategorie wskazówi i porady jak zacząć być bardziej ekologicznym w domu, w codziennym życiu."
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewDomTytul"/>
 
 
 </RelativeLayout>

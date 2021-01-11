@@ -7,10 +7,71 @@
     tools:context=".SortowanieMieszane">
 
     <TextView
+        android:id="@+id/tvMieszaneTytul"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="60dp"
+        android:layout_width="400dp"
+        android:textSize="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Zmieszane"/>
+
+    <TextView
+        android:id="@+id/tvMieszaneIn"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="180dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Wrzucamy:"/>
+
+    <TextView
+        android:id="@+id/mieszane"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tvMieszaneIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MIESZANE"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="to, czego nie można wyrzucać do pozostałych pojemników, a co nie jest odpadem niebezpiecznym"/>
 
+    <TextView
+        android:id="@+id/tvMieszaneOut"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mieszane"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Nie wrzucamy:"
+        android:textAlignment="center"
+        android:textColor="#CD0A11"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/mieszane1"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tvMieszaneOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="przeterminowanych leków i chemikaliów\nzużytego sprzętu elektronicznego i AGD\nzużytych baterii i akumulatorów\nmebli i innych odpadów wielkogabarytowych\nodpadów budowlanych i rozbiórkowych\nzużytych opon"/>
 </RelativeLayout>

@@ -7,10 +7,72 @@
     tools:context=".SortowaniePapier">
 
     <TextView
+        android:id="@+id/tvPapierTytul"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="60dp"
+        android:layout_width="400dp"
+        android:textSize="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Papier"/>
+
+    <TextView
+        android:id="@+id/tvPapierIn"
+        android:textColor="@android:color/holo_green_dark"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="180dp"
+        android:layout_width="400dp"
+        android:textSize="23dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Wrzucamy:"/>
+
+    <TextView
+        android:id="@+id/Papier"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tvPapierIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PAPIER"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="opakowania z papieru i tektury\ngazety, czasopisma i ulotki\nzeszyty, kartony, papier biurowy"/>
+
+    <TextView
+        android:id="@+id/tvPapierOut"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Papier"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Nie wrzucamy:"
+        android:textAlignment="center"
+        android:textColor="#CD0A11"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/Papier1"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/tvPapierOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="odpadów higienicznych\nkartonów po mleku i napojach\npapieru lakierowanego i powlekanego folią\npapierowych worków po nawozach i materiałach budowlanych"/>
 
 </RelativeLayout>

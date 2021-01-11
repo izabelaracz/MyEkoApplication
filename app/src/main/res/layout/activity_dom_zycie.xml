@@ -1,6 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/opisZakupy"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="W tej zakładce znajdziesz parę ciekawych pomysłów jak ponownie wykorzystać rzeczy, które w pierwszej chwili chcesz wyrzucić, zamiast tego daj przedmiotom drugie życie!"/>
+
+        <TextView
+            android:id="@+id/tytul1"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/opisZakupy"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="1. Ubrania, koce, pościel"/>
+
+        <TextView
+            android:id="@+id/zasada1"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Jeśli masz niepotrzebne, ale nadal niezniszczone i sprawne rzeczy, możesz podarować je organizacjom chrytatywnym lub sprzedać, na przykład w internecie na różnych portalach ogłoszeniowych.\nNiepotrzebne koce, kołdry, materace możesz podarować schronisku. Zwierzaki będą Ci bardzo wdzięczne! "/>
+
+        <TextView
+            android:id="@+id/tytul2"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada1"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="2. Stare opakowania"/>
+
+        <TextView
+            android:id="@+id/zasada2"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Pudełka po lodach lub słoiki fantastycznie nadają się do przechowywania suchych produktów. Te po lodach możesz sprawdzą się również w zamarażarce. Tą poradę nasze mamy stosują od dawna. Kto z nas nie przeżył rozczarowania znajdując w zamrażarce koperek w pudełku po lodach!\nSłoiki i butelki z zakrętką sprawdzą się również do przetworów. Jeśli zakrętki są szczelne i niezardzewiałe będą Ci służyć jeszcze bardzo długo."/>
+
+        <TextView
+            android:id="@+id/tytul3"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada2"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="3. Robótki ręczne"/>
+
+        <TextView
+            android:id="@+id/zasada3"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Nienoszony sweter możemy świetnie wykorzystać do zrobienia poszewki na poduszkę. Starą, bawełnianą koszulkę możemy pociąć w paski, w ten sposób zrobimy wypełnienie naszej poduszki. Koszulkę możemy również pociąć na większe kawałki i zrobić z nich wielorazowe ściereczki.\nMetalowe puszki mogą stać się naszym pojemnikiem na długopisy lub na przykład zioła. Dodatkową zabawą będzie ozdobienie ich według własnego gustu."/>
+
+        <TextView
+            android:id="@+id/tytul4"
+            android:textColor="@android:color/holo_green_dark"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="40dp"
+            android:layout_width="400dp"
+            android:textSize="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/zasada3"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="4. Plastik od nowa"/>
+
+        <TextView
+            android:id="@+id/zasada4"
+            android:fontFamily="@font/montserrat"
+            android:layout_below="@id/tytul4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="Opakowania po jogurtach czy serkach świetnie sprawdzą się wiosną w ogrodzie. Można wysiać w nich rośliny, a kiedy wykiełkują, przesadzić sadzonki do gruntu.\nTakie opakowania przydadzą się również maluchom podczas zabawy farbami. Możemy napełnić je wodą i opłukiwać pędzelek."/>
+    </RelativeLayout>
+</ScrollView>
