@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DomTipy">
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ImageButton
         android:id="@+id/buttonCzysto"
         android:background="@drawable/dom_czystosc"
-        android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_width="380dp"
+        android:layout_height="210dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="Domowe środki czystości"
@@ -21,8 +23,8 @@
     <ImageButton
         android:id="@+id/buttonZakupy"
         android:background="@drawable/dom_zakupy"
-        android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_width="380dp"
+        android:layout_height="210dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/montserrat"
@@ -35,8 +37,8 @@
     <ImageButton
         android:id="@+id/button2Zycie"
         android:background="@drawable/dom_zycie"
-        android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_width="380dp"
+        android:layout_height="210dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/montserrat"
@@ -46,4 +48,5 @@
         android:layout_below="@id/buttonZakupy"
         android:textStyle="bold" />
 
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

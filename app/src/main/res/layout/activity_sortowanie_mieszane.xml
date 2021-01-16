@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SortowanieMieszane">
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tvMieszaneTytul"
@@ -20,7 +23,8 @@
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:text="Zmieszane"/>
+        android:text="Zmieszane"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/tvMieszaneIn"
@@ -35,7 +39,8 @@
         android:layout_marginStart="30dp"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
-        android:text="Wrzucamy:"/>
+        android:text="Wrzucamy:"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/mieszane"
@@ -46,7 +51,8 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textSize="18dp"
-        android:text="to, czego nie można wyrzucać do pozostałych pojemników, a co nie jest odpadem niebezpiecznym"/>
+        android:text="to, czego nie można wyrzucać do pozostałych pojemników, a co nie jest odpadem niebezpiecznym"
+        android:layout_marginHorizontal="30dp"/>
 
     <TextView
         android:id="@+id/tvMieszaneOut"
@@ -62,7 +68,8 @@
         android:text="Nie wrzucamy:"
         android:textAlignment="center"
         android:textColor="#CD0A11"
-        android:textSize="23dp" />
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/mieszane1"
@@ -73,5 +80,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textSize="18dp"
-        android:text="przeterminowanych leków i chemikaliów\nzużytego sprzętu elektronicznego i AGD\nzużytych baterii i akumulatorów\nmebli i innych odpadów wielkogabarytowych\nodpadów budowlanych i rozbiórkowych\nzużytych opon"/>
-</RelativeLayout>
+        android:text="przeterminowanych leków i chemikaliów\nzużytego sprzętu elektronicznego i AGD\nzużytych baterii i akumulatorów\nmebli i innych odpadów wielkogabarytowych\nodpadów budowlanych i rozbiórkowych\nzużytych opon"
+        android:layout_marginHorizontal="30dp" />
+    </RelativeLayout>
+</ScrollView>

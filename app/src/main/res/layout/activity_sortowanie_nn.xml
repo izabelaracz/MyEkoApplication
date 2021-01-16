@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SortowanieNN">
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
     <TextView
@@ -15,8 +18,8 @@
         android:layout_width="400dp"
         android:textSize="23dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_marginStart="50dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
@@ -29,11 +32,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="35dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:gravity="center"
         android:textSize="18dp"
         android:text="Takie odpady oddawaj do lokalnego punktu selektywnej zbiórki lub do sklepu ze sprzętem elektronicznym."/>
 
-   </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

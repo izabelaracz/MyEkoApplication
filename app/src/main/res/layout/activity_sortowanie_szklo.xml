@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SortowanieSzklo">
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tvSzkloTytul"
@@ -20,7 +23,8 @@
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:text="Szkło"/>
+        android:text="Szkło"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/tvSzkloIn"
@@ -35,7 +39,8 @@
         android:layout_marginStart="30dp"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
-        android:text="Wrzucamy:"/>
+        android:text="Wrzucamy:"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/szklo"
@@ -62,7 +67,8 @@
         android:text="Nie wrzucamy:"
         android:textAlignment="center"
         android:textColor="#CD0A11"
-        android:textSize="23dp" />
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/szklo1"
@@ -73,5 +79,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textSize="18dp"
-        android:text="ceramiki\ndoniczek\nporcelany\nszkła okularowego, żaroodpornego i hartowanego\nzniczy z zawartością wosku\nżarówek, świetlówek i reflektorów\nszklanych opakowań po lekach, rozpuszczalnikach i olejach silnikowych\luster i szyb okiennych"/>
-</RelativeLayout>
+        android:text="ceramiki\ndoniczek\nporcelany\nszkła okularowego, żaroodpornego i hartowanego\nzniczy z zawartością wosku\nżarówek, świetlówek i reflektorów\nszklanych opakowań po lekach, rozpuszczalnikach i olejach silnikowych\luster i szyb okiennych"
+        android:layout_marginHorizontal="30dp"/>
+    </RelativeLayout>
+</ScrollView>

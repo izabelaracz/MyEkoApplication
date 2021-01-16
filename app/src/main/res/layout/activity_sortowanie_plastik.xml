@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SortowaniePlastik">
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tvPlastikTytul"
@@ -12,7 +15,7 @@
         android:fontFamily="@font/montserrat"
         android:layout_marginTop="60dp"
         android:layout_width="400dp"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -20,7 +23,8 @@
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:text="Metale i tworzywa sztuczne"/>
+        android:text="Metale i tworzywa sztuczne"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/tvPlastikIn"
@@ -35,7 +39,8 @@
         android:layout_marginStart="30dp"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
-        android:text="Wrzucamy:"/>
+        android:text="Wrzucamy:"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/plastik"
@@ -46,7 +51,8 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textSize="18dp"
-        android:text="plastikowe butelki\nnakrętki, kapsle, zakrętki od słoików i butelek\nplastikowe opakowania, torebki i worki foliowe\npuszki po konserwach\naluminiowe puszki po napojach\nkartony po mleku i sokach"/>
+        android:text="plastikowe butelki\nnakrętki, kapsle, zakrętki od słoików i butelek\nplastikowe opakowania, torebki i worki foliowe\npuszki po konserwach\naluminiowe puszki po napojach\nkartony po mleku i sokach"
+        android:layout_marginHorizontal="30dp" />
 
     <TextView
         android:id="@+id/tvPlastikOut"
@@ -62,7 +68,8 @@
         android:text="Nie wrzucamy:"
         android:textAlignment="center"
         android:textColor="#CD0A11"
-        android:textSize="23dp" />
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/plastik1"
@@ -73,5 +80,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textSize="18dp"
-        android:text="opakowań po lekach\nzużytych baterii i akumulatorów\nopakowań po farbach, lakierach i olejach\nplastikowych zabawek\nczęści samochodowych\nzużytego sprzętu elektronicznego i AGD"/>
+        android:text="opakowań po lekach\nzużytych baterii i akumulatorów\nopakowań po farbach, lakierach i olejach\nplastikowych zabawek\nczęści samochodowych\nzużytego sprzętu elektronicznego i AGD"
+        android:layout_marginHorizontal="30dp"/>
 </RelativeLayout>
+    </ScrollView>
