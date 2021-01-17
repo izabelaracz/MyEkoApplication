@@ -21,14 +21,15 @@
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"/>
 
     <Button
         android:id="@+id/buttonNextTip"
         android:layout_width="260dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="580dp"
         android:fontFamily="@font/montserrat"
         android:text="Do dzieła"
         android:textAllCaps="true"

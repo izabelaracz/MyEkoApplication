@@ -56,7 +56,7 @@
         android:background="@drawable/segregacja_ogolne"
         />
 
-        <Button
+        <ImageButton
             android:id="@+id/buttonniewiadoma"
             android:layout_width="380dp"
             android:layout_height="180dp"
@@ -64,10 +64,11 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/montserrat"
-            android:text="A co z reszta?"
+            android:text="A co z resztą?"
             android:textAllCaps="true"
             android:textSize="40dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@drawable/segregacja_reszta"/>
 
     </RelativeLayout>
 </ScrollView>

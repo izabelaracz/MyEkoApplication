@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="230dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/logo_beko_wersja_dwa"/>
+
+
+        <ImageButton
+            android:id="@+id/button_sortowanie"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/przycisk_recykling"
+            android:textSize="15dp" />
+
+        <ImageButton
+        android:id="@+id/button_woda"
+        android:text="WODA"
+        android:background="@drawable/przycisk_woda"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="230dp"/>
+
+    <ImageButton
+        android:id="@+id/button_quiz"
+        android:background="@drawable/przycisk_quiz"
+        android:text="QUIZ"
+        android:layout_below="@id/button_woda"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageButton
+        android:id="@+id/button_dom"
+        android:background="@drawable/przycisk_dom"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/button_woda"
+        android:text="DOM"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+</ScrollView>

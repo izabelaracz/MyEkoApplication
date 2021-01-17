@@ -21,7 +21,8 @@
         android:gravity="center"
         android:text="Woda jest dobrem, z którego korzystamy codziennie w różnych celach. Potrzebujemy wody do picia, prania, kąpieli, sprzątania domu, podlewania ogródka, mycia samochodu. Często nie zdajemy sobie sprawy z ilości wody jaką zużywamy na darmo. W tej sekcji możesz sprawdzić jak dużo marnujemy wody oraz ustawić licznik filtra wody."
         android:textSize="18dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"/>
 
     <Button
         android:id="@+id/buttonCiekawostka"

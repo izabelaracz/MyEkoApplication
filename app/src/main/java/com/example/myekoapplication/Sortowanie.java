@@ -15,7 +15,7 @@ public class Sortowanie extends AppCompatActivity {
     private ImageButton szklo;
     private ImageButton bio;
     private ImageButton mix;
-    private Button niewiadoma;
+    private ImageButton niewiadoma;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,7 +62,7 @@ public class Sortowanie extends AppCompatActivity {
             }
         });
 
-        niewiadoma = (Button) findViewById(R.id.buttonniewiadoma);
+        niewiadoma = (ImageButton) findViewById(R.id.buttonniewiadoma);
         niewiadoma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
