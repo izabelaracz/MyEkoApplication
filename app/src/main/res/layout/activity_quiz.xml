@@ -23,6 +23,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvmsg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
@@ -37,7 +38,8 @@
         android:layout_width="260dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_below="@id/tvmsg2"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/montserrat"
         android:text="Zrób QUIZ"
         android:textAllCaps="true"

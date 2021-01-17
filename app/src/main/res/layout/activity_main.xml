@@ -24,8 +24,9 @@
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:textSize="15dp"
+        android:layout_below="@id/logo"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="230dp" />
+        android:layout_marginTop="20dp" />
 
     <ImageButton
         android:id="@+id/button_woda"
@@ -33,9 +34,10 @@
         android:background="@drawable/przycisk_woda"
         android:layout_width="170dp"
         android:layout_height="170dp"
+        android:layout_below="@id/logo"
         android:layout_marginRight="20dp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="230dp"/>
+        android:layout_marginTop="20dp"/>
 
     <ImageButton
         android:id="@+id/button_quiz"

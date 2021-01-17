@@ -23,7 +23,10 @@
             android:layout_width="170dp"
             android:layout_height="170dp"
             android:layout_marginLeft="200dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@id/button_woda"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/logo"
             android:background="@drawable/przycisk_recykling"
             android:textSize="15dp" />
 
@@ -33,9 +36,10 @@
         android:background="@drawable/przycisk_woda"
         android:layout_width="170dp"
         android:layout_height="170dp"
+            android:layout_below="@id/logo"
         android:layout_marginRight="200dp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="230dp"/>
+        android:layout_marginTop="20dp"/>
 
     <ImageButton
         android:id="@+id/button_quiz"
@@ -44,7 +48,8 @@
         android:layout_below="@id/button_woda"
         android:layout_width="170dp"
         android:layout_height="170dp"
-        android:layout_marginLeft="200dp"
+        android:layout_toLeftOf="@id/button_dom"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
 
     <ImageButton
