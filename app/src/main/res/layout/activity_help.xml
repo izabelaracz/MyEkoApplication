@@ -19,7 +19,7 @@ android:fillViewport="true">
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:text="Witaj!\nW aplikacji znajdziesz cztery sekcje: Segregacja, Woda, Quiz oraz Dom. W każdej z nich znajduje się porcja wiedzy jak być bardziej przyjaznym środowisku na codzień, w domowych warunkach."
+        android:text="Witaj!!!\nW aplikacji znajdziesz cztery sekcje: Segregacja, Woda, Quiz oraz Dom. W każdej z nich znajduje się porcja wiedzy jak być bardziej przyjaznym środowisku na codzień, w domowych warunkach."
         android:gravity="center"
         android:layout_marginTop="50dp"/>
 
